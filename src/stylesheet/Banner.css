@@ -1,0 +1,51 @@
+.Banner_container{
+    width:100%;
+    height: 100vh;
+    background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  }
+
+  .Banner{
+      margin-left: 7%;
+  }
+.Banner h2{
+    margin-top: 20%;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #EFEEEE;
+    font-weight: 400;
+}
+
+.Banner h1{
+    font-size: 55px;
+    color: #0ACF83;
+    font-weight: 700;
+    margin-bottom: 300px;
+    
+}
+
+
+.Categories_available{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.Category_title{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.Actual_category{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10em;
+    margin-top: 2em;
+}
+
+.Categories_inStock{
+    margin-left: 10em;
+}
