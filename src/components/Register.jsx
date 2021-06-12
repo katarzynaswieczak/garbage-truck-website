@@ -2,7 +2,7 @@ import React from 'react';
 import "../stylesheet/Register.css";
 import planet from '../images/planet.png';
 import green from '../images/xtr.png';
-import { auth, db, firebase, provider, providerGoogle } from '../Firebase/Firebase';
+import { auth, provider, db, firebase, providerGoogle } from '../Firebase/Firebase';
 
 
 
@@ -51,7 +51,7 @@ const signInFacebook = () => {
         email: user.email,
         imie: user.displayName
       }).then(() => {
-        alert("User has been submitted")
+        alert("Hello friend")
       })
         .catch((error) => {
           alert(error.message);
