@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchIcon from '@material-ui/icons/Search';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import logo from '../images/smieciarka-logo.png'
+import logo from '../images/logo.png'
 import "../stylesheet/Header.css";
 
 

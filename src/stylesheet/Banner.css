@@ -9,9 +9,9 @@
 
   .Banner{
       margin-left: 7%;
+      margin-top: 45vh;
   }
 .Banner h2{
-    margin-top: 20%;
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -28,24 +28,25 @@
 }
 
 
-.Categories_available{
-display: flex;
-flex-direction: column;
-align-items: center;
+.btn_add {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  align-items: center;
 }
 
-.Category_title{
-    text-align: center;
-    margin-top: 2em;
-}
-
-.Actual_category{
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 10em;
-    margin-top: 2em;
-}
-
-.Categories_inStock{
-    margin-left: 10em;
+.add{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 12px;
+  background-color: #0ACF83;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  transition: .2s ease-in;
+  justify-content: center;
+  position: relative;
 }

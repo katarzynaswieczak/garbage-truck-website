@@ -10,6 +10,7 @@ import Banner from './components/Banner';
 import PrivateRoute from './components/PrivateRoute';
 import { AuthProvider } from './components/AuthProvider';
 import Dashboard from './components/Dashboard';
+import Modal from './components/Modal';
 
 
 function App() {
@@ -17,9 +18,8 @@ function App() {
     <AuthProvider>
       <Router className="App">
         <Switch>
-
+       
           <Route path="/user-signin">
-            <Header />
             <Sign />
           </Route>
 
@@ -27,14 +27,16 @@ function App() {
             <Register />
           </Route>
 
-          <Route path="">
-            <Header />
-            <Banner />
-            <FeedItem />
-
-
+<Route path="/add">
+<Modal />
+</Route>
+     
+ <Route path="">
+          <Header />
+<Banner />
+<FeedItem/>
           </Route>
-
+      
           <PrivateRoute path="/dashboard" component={Dashboard} />
 
         </Switch>

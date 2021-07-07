@@ -9,18 +9,16 @@ const Banner = () => {
             <div className="Banner">
                 <h2>Uwaga!</h2>
                 <h1>Śmieciarka jedzie</h1>
-            </div>
-            <div className="Categories_available">
-                <div className="Category_title">
-                    <h2>All Categories</h2>
                 </div>
-                <div className="Actual_category">
-                    <h4 className="Categories_inStock">Cars</h4>
-                    <h4 className="Categories_inStock">Mobiles</h4>
-                    <h4 className="Categories_inStock">Gaming</h4>
-                </div>
+                <div className="btn_add">
+       <div className="add">
+       <a href="/add" className="add_add"><img src="https://img.icons8.com/ios-glyphs/30/000000/plus-math.png"/></a>
+       </div>
+       </div>
             </div>
-        </div>
+  
+            
+
     )
 }
 
